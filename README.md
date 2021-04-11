@@ -29,9 +29,9 @@ To access this project on your local files, you can clone it using these steps
 ### BDD
 | Inputs | Description |
 |:---        |          ---: |
-| Year   | The year of the century ``eg 98th year``  |
-| Month  | The month of the year ``eg 7th month``  |
-| Date   | The date of the month ``eg 15th day`` |
+| Year   | The year of the century ``eg 2021``  |
+| Month  | The month of the year ``eg 12th``  |
+| Date   | The date of the month ``eg 15`` |
 
 ### Live Site
 View [Live] ()
