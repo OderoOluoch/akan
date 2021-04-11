@@ -41,3 +41,10 @@ body{
     outline: 0;
     box-shadow: none;
 }
+.btn-class{
+    border-color: #00ac96;
+    color: #00ac96;
+}
+.btn-class:hover{
+    background-color: #00ac96;
+}
