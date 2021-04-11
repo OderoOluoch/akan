@@ -7,6 +7,7 @@ let getUserDetails = function(){
     console.log(data)
     let genDate = new Date(data).getDay();
     console.log(genDate)
+    getAkhanName(genDate,gender)
 }
 
 let getAkhanName = function(day, gender){
