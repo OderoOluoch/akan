@@ -8,6 +8,7 @@ let formValidation = function(){
     let genderData = document.forms["khanEntry"]["gender"].value
 
     if(dateData == "" || genderData == ""){
+        unhideElement();
       alert("Ensure all inputs are entered correctly to get your Khan name") 
       return false;  
     }else{
@@ -38,6 +39,12 @@ let getAkhanName = function(day, gender){
 let hideElement = function() {
     var x = document.getElementById("hiden-display");
     x.style.display = "block";
+    
+  }
+
+  let unhideElement = function() {
+    var x = document.getElementById("hiden-display");
+    x.style.display = "none";
     
   }
 
