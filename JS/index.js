@@ -7,7 +7,8 @@ let formValidation = function(){
     let genderData = document.forms["khanEntry"]["gender"].value
 
     if(dateData == "" || genderData == ""){
-      alert("Ensure all inputs are entered correctly to get your Khan name")   
+      alert("Ensure all inputs are entered correctly to get your Khan name") 
+      return false;  
     }else{
         getUserDetails()
     }
@@ -25,7 +26,7 @@ let display = document.getElementById("display")
 
 let getAkhanName = function(day, gender){
     if(gender === "Male"){
-        display.innerHTML = `<p>Your Akan name is ${maleKhanNames[day]} becuase you were a ${gender} born on ${daysArray[day]}</p>`
+        display.innerHTML = `<p>Your Akan name is ${maleKhanNames[day]} becuase you are a ${gender} born on ${daysArray[day]}</p>`
 
     }else if(gender === "Female"){
         display.innerHTML = `<p>Your Akan name is ${femaleKhanNames[day]} becuase you are a ${gender} born on ${daysArray[day]}</p>`
