@@ -10,11 +10,13 @@ body{
     background-color: #fff;
     padding: 4rem 1rem 4rem 1rem;
     box-shadow: 0 0 5px 5px rgba(0,0,0, .05);
+    border-radius: 10px;
 }
 
 .into-text{
     font-style: normal;
     font-weight: 600 !important;
+    text-align: center
 }
 
 .form-control {
@@ -54,6 +56,10 @@ body{
 
 #hiden-display{
     display: none
+}
+
+img{
+    border-radius: 10px;
 }
 
 .form-control:focus{
