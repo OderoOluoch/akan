@@ -13,6 +13,10 @@ body{
     border-radius: 10px;
 }
 
+.btns{
+    text-align: center;
+}
+
 .into-text{
     font-style: normal;
     font-weight: 600 !important;
