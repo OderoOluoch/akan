@@ -13,14 +13,11 @@ let display = document.getElementById("display")
 
 let getAkhanName = function(day, gender){
     if(gender === "Male"){
-        console.log(daysArray[day], gender)
         display.innerHTML = `<p>Your Akan name is ${maleKhanNames[day]} becuase you were born on ${daysArray[day]}</p>`
 
     }else if(gender === "Female"){
-        console.log(daysArray[day],gender)
         display.innerHTML = `<p>Your Akan name is ${femaleKhanNames[day]} becuase you were born on ${daysArray[day]}</p>`
     }
-
 }
 
 let reset = function(){
