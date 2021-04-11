@@ -3,6 +3,7 @@ let maleKhanNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwam
 let femaleKhanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
 let formValidation = function(){
+    hideElement();
     let dateData = document.forms["khanEntry"]["data"].value
     let genderData = document.forms["khanEntry"]["gender"].value
 
@@ -10,7 +11,7 @@ let formValidation = function(){
       alert("Ensure all inputs are entered correctly to get your Khan name") 
       return false;  
     }else{
-        hideElement();
+        
         getUserDetails();
     }
 }
@@ -36,11 +37,8 @@ let getAkhanName = function(day, gender){
 
 let hideElement = function() {
     var x = document.getElementById("hiden-display");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
+    x.style.display = "block";
+    
   }
 
 let reset = function(){

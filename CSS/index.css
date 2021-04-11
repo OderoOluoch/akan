@@ -53,7 +53,8 @@ body{
 }
 
 #hiden-display{
-    display: none}
+    display: none
+}
 
 .form-control:focus{
     color: #495057;
