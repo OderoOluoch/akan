@@ -10,7 +10,8 @@ let formValidation = function(){
       alert("Ensure all inputs are entered correctly to get your Khan name") 
       return false;  
     }else{
-        getUserDetails()
+        hideElement();
+        getUserDetails();
     }
 }
 
@@ -32,6 +33,15 @@ let getAkhanName = function(day, gender){
         display.innerHTML = `<p>Your Akan name is <strong> ${femaleKhanNames[day]} </strong>  becuase you are a ${gender} born on ${daysArray[day]}</p>`
     }
 }
+
+let hideElement = function() {
+    var x = document.getElementById("hiden-display");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
 
 let reset = function(){
     location.reload();

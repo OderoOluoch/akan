@@ -52,6 +52,9 @@ body{
     margin: 15px;
 }
 
+#hiden-display{
+    display: none}
+
 .form-control:focus{
     color: #495057;
     background-color: #fff;
