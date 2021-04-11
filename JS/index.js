@@ -1,3 +1,6 @@
+
+
+
 let getUserDetails = function(){
     data = document.getElementById("data").value;
     console.log(data)
