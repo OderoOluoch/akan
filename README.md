@@ -27,11 +27,20 @@ To access this project on your local files, you can clone it using these steps
 5. BOOTSRAP
 
 ### BDD
-| Inputs | Description |
-|:---        |          ---: |
-| Year   | The year of the century ``eg 2021``  |
-| Month  | The month of the year ``eg 12th``  |
-| Date   | The date of the month ``eg 15`` |
+| The web, on opening, displays the contents, loads the forms and images |
+| The web displays styled items, neatly arranged. |
+| The form on the web allows the user to click in the calendar to select date with the following inputs|
+        | Inputs | Description |
+        |:---        |          ---: |
+        | Year   | The year  ``eg 2021``  |
+        | Month  | The month of the year ``eg 12``  |
+        | Date   | The date of the month ``eg 15`` |
+The site display error on the follwing events
+        | Inputs              | Description      |
+        |:---            ---: |:---          ---:|
+        | Year month or date  | Empty submission | ``ensure all entries are filled correctly``  |
+The site allows the user to clear inputs by clicking on the clear button
+    
 
 ### Live Site
 View [Live] (https://oderooluoch.github.io/akan/)
